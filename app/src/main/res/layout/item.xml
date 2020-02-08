@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:text="No container"/>
+            <TextView
+                android:id="@+id/tvNocontainer"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textColor="@color/colorBlack"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:text="Size"/>
+            <TextView
+                android:id="@+id/tvSize"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textColor="@color/colorBlack"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:text="Type"/>
+            <TextView
+                android:id="@+id/tvType"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textColor="@color/colorBlack"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:text="Slot"/>
+            <TextView
+                android:id="@+id/tvSlot"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textColor="@color/colorBlack"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:text="Row"/>
+            <TextView
+                android:id="@+id/tvRow"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textColor="@color/colorBlack"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:text="Tier"/>
+            <TextView
+                android:id="@+id/tvTier"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textColor="@color/colorBlack"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/edit_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/pedit" />
+
+        <ImageView
+            android:id="@+id/delete_contact"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/pdelete" />
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
